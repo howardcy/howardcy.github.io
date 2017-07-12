@@ -1,0 +1,28 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+body {
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000
+}
+.img-me {
+	padding-top: 50px;
+}
+
+
+.pub
+{
+    color:#404040;
+    font-size:0.9em;
+}
+
+.spacer {
+	 margin-top: 30px; 
+}
