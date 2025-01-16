@@ -9,11 +9,11 @@ Romeoville, IL 60446
 
 ## Office Hours
 
-* **Time:** Tuesday 2:30-4:00 and Thursday 12:30-3:30 or email me to schedule an appointment
+* **Time:** Tuesday 10:00-12:30 or [schedule an appointment with me](https://outlook.office.com/bookwithme/user/e62e3ded33f24ffc848dc5d852b180d0@lewisu.edu?anonymous&ep=plink).
 * **Location:** AS-131-L
 
-## Classes - Fall 2018
-* Introduction to Computer Science  
-* Introduction to Computer Science (online)
+## Recent Classes Taught 
 * Database Systems
+* Mobile Application Development
 * Pervasive Application Development
+* Natural Language Processing
