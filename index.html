@@ -1,33 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cindy Howard</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #555;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Dr. Howard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <h2>Cindy Howard</h2>
 
-    <p>I am a Professor at Lewis University and Chair of the Department of Engineering, Computing and Mathematical Sciences at <a href="http://www.lewisu.edu">Lewis University</a>.</p>
+<body>
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Cindy Howard</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#classes">Classes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#photos">Photos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <p class="text-center">
+            <img src="assets/images/cindy.jpg" alt="Cindy Howard" class="img-fluid rounded-circle mb-3" width="200">
+        <p>I am a Professor at Lewis University and Chair of the Department of Engineering, Computing and Mathematical
+            Sciences. I grew up in the Milwaukee area and attended the University
+            of Wisconsin where I earned a BBA in Accounting and Information Systems. After working for 10 years in the
+            financial industry,
+            I decided to go back to school and earn a degree in Computer Science. I received a MS in Computer Sceince
+            from Governors State University
+            and earned my PhD from the University of Illinois at Chicago where my advisor was
+            <a href="http://www.cs.uic.edu/DiEugenio">Barbara Di Eugenio.</a>
+        </p>
+
+        <p>My research interests include natural language processing, machine learning and artificial intelligence. I am
+            also interested in
+            the use of AI in education. I'm currently working on a project to update my courses to incorporate
+            the use of AI.</p>
+        <p>In addition to my teaching and research, I am also the faculty advisor for the Lewis University chapter of <a
+                href="https://women.acm.org/" target="_blank">ACM-W</a>. This is a professional organization that
+            supports and advocates for women in computing. Additionally, I run the <a
+                href="https://cs.lewisu.edu/gct/about.html" target="_blank"> Girls Create with Technology</a> program.
+            This program is designed to engage girls in computer science and STEM activities. Girls participating in the
+            program will receive advanced training in various aspects of Computer Science from Lewis University faculty
+            and students.
+        </p>
+
+        <p>I currently live near Milwaukee (yes, I know that's a long commute) with my husband, Doug.
+            In my spare time, I like to read mysteries and historical fiction. I also like to
+            to watch live music, boat and travel. </p>
+
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="container my-5">
+        <h2 class="text-center">Classes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Database Systems</h5>
+                        <p class="card-text">This course is offered both spring and fall semester. It is a required
+                            course for students in computer science, cybersecurity, data science and information
+                            technology. It was recently updated to use AI in several assignments. Also the
+                            programming assignment was changed to use the python programming language to accomodate
+                            students who are not computer science majors.</p>
+                        <a href="https://lewisu.smartcatalogiq.com/en/undergrad-2024-2025/undergrad-2024-2025/course-descriptions/70-computer-science/300/70-330"
+                            target="_blank" class="btn btn-primary">
+                            View Course Description</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile Application Development</h5>
+                        <p class="card-text">This course is offered in the spring semester. In the past, mobile
+                            application development was taught using the Java and
+                            Kotlin to devlop Android applications. This course has been updated to use frameworks such
+                            as React Native and Flutter to develop cross-platform applications. The course is designed
+                            to provide students with the skills and knowledge needed to develop mobile applications that
+                            can run on both Android and iOS devices.</p>
+                        <a href="https://lewisu.smartcatalogiq.com/en/undergrad-2024-2025/undergrad-2024-2025/course-descriptions/70-computer-science/400/70-417"
+                            target="_blank" class="btn btn-primary">View Course Description</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pervasive Application Development</h5>
+                        <p class="card-text"> This graduate level course is offered in the first term of the fall
+                            semseter. It is a graduate version of mobile application development. The course has been
+                            updated to use React Native in place of Android Studio. The course is designed to provide
+                            students with the skills and knowledge needed to develop responsive website, along with
+                            mobile applications that can run on both Android and iOS devices.</p>
+                        <a href="https://lewisu.smartcatalogiq.com/en/graduate-2024-2025/graduate-2024-2025/course-descriptions/70-computer-science/500/70-517"
+                            class="btn btn-primary" target="_blank">View Course Description</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container my-5">
+        <h2 class="text-center">Education</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Ph.D., Computer Science, University of Illinois at Chicago</li>
+            <li class="list-group-item">M.S., Computer Science, Governors State University</li>
+            <li class="list-group-item">BBA, Accounting/Information Systems Analysis & Design, University of
+                Wisconsin-Madison</li>
+        </ul>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos" class="container my-5">
+        <h2 class="text-center">Photos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="assets/images/milwaukee1.jpg" alt="Milwaukee" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/images/door-county.jpg" alt="Door County" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/images/rib-mountain.jpg" alt="Rib Mountain" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/images/hawaii.jpg" alt="Hawaii" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/images/wausau.jpg" alt="Wausau" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="assets/images/cabrillo.jpg" alt="Cabrillo" class="img-fluid rounded">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact</h2>
+        <p>If you would like to get in touch, please reach out via <a href="mailto:howardcy@lewisu.edu">email</a> or
+            connect with me on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>.
+            I have office hours on Tuesday and Thursday 10:00-12:30 in AS-131-L or <a
+                href="https://outlook.office.com/bookwithme/user/e62e3ded33f24ffc848dc5d852b180d0@lewisu.edu?anonymous&ep=plink"
+                target="_blank">schedule an appointment with me.</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Cindy Howard. All Rights Reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/cindy-howard-25a28040/" class="text-white mx-2"
+                target="_blank">LinkedIn</a>
+            <a href="https://github.com/howardcy" class="text-white mx-2" target="_blank">GitHub</a>
+            <a href="https://bsky.app/profile/cjhoward6.bsky.social" class="text-white mx-2" target="_blank">Bluesky</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
